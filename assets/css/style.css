@@ -21,3 +21,15 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.sec-title h2 {
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.sec-title p {
+    font-size: 16px;
+    font-weight: 500;
+}
