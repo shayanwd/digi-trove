@@ -3,6 +3,10 @@
     margin-bottom: 30px;
 }
 
+.shop-by-cat-sec {
+    padding: 100px 0px;
+}
+
 .shop-cat-tab-holder {
     display: flex;
     width: 100%;
@@ -57,6 +61,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
+}
+
+.shop-cat-swiper .swiper-slide-active {
+    transform: scale(1.05);
+}
+
+.shop-cat-swiper .swiper-slide:not(.swiper-slide-active) {
+    transform: scale(0.95);
+}
+
+
+
+.shop-by-cat-sec .swiper-pagination {
+    position: static;
+    margin-top: 20px;
 }
 
 .shop-cat-card {
@@ -87,6 +107,7 @@
     border-radius: 20px;
     aspect-ratio: 2/1;
     object-fit: cover;
+    display: block;
 }
 
 .shop-cat-card-content {
@@ -131,13 +152,6 @@
 .shop-cat-card-content a {
     background-color: white !important;
     color: #873EFF !important;
-}
-
-.shop-cat-swiper .swiper-slide {}
-
-.shop-cat-swiper .swiper-slide.swiper-slide-active {
-    /* transform: scale(1.04); */
-
 }
 
 .shop-cat-swiper .swiper-button-next {
@@ -188,11 +202,13 @@
     justify-content: space-between;
     scroll-snap-type: x mandatory;
     margin-top: 40px;
-
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .social-prof-img-holder img {
     max-width: 200px;
+    width: 100%;
     object-fit: contain !important;
     height: 60px;
     scroll-snap-align: start;
