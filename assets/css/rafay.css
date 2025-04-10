@@ -1,0 +1,115 @@
+.banner-sec {
+    position: relative;
+    z-index: 1;
+    background: #EDE9E6;
+    padding: 100px 0px;
+    overflow: hidden;
+}
+
+.bn-frags {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.bnn-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    align-items: center;
+}
+
+.bnn-col2 img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    transform: scale(1.1);
+    transform-origin: 30%;
+}
+
+.bnn-col1 {
+    position: relative;
+    z-index: 1;
+}
+
+.bnn-col1 h1 {
+    font-family: Fustat;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.bnn-col1 p {
+    font-family: Fustat;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    text-transform: capitalize;
+    color: #000;
+    width: 120%;
+    max-width: 590px;
+}
+
+.bnn-col1 a {
+    display: block;
+    background: #873EFF;
+    padding: 20px 26px;
+    border-radius: 14px;
+    color: #fff;
+    font-family: Fustat;
+    font-weight: 800;
+    font-size: 18.93px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    width: fit-content;
+    margin-top: 30px;
+}
+
+.frag {
+    position: absolute;
+    transform: scale(0.8);
+}
+
+.frag.f1 {
+    top: 18%;
+    left: -2%;
+}
+
+.frag.f2 {
+    bottom: 15%;
+    left: -80px;
+}
+
+.frag.f3 {
+    top: 6%;
+    right: 25%;
+    z-index: 2;
+}
+
+.frag.f4 {
+    bottom: 33%;
+    right: 30px;
+    z-index: 2;
+}
+
+.bn-headline {
+    width: 100%;
+    background: #873EFF;
+    padding: 20px;
+}
+
+.bn-headline p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+}
