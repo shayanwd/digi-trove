@@ -11,6 +11,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=swap" rel="stylesheet">
 
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
     <!-- CSS FILES -->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/rafay.css">
@@ -19,43 +22,400 @@
 </head>
 
 <body>
-
-
-
     <section class="shop-by-cat-sec">
         <div class="container">
             <div class="sec-title">
                 <h2>Shop by Category</h2>
                 <p>Browse through our carefully curated categories, designed to offer the best products and solutions
                     tailored to your needs.</p>
-                <a href="#" class="site-btn">asdasd</a>
+            </div>
+            <div class="shop-cat-tab-holder">
+                <button type="button" class="tab-btn active" data-tab="templates">Templates & Graphics</button>
+                <button type="button" class="tab-btn" data-tab="courses">Online Courses</button>
+                <button type="button" class="tab-btn" data-tab="tools">Digital Tools</button>
+                <button type="button" class="tab-btn" data-tab="heritage">Arabic & Gulf Heritage</button>
+                <button type="button" class="tab-btn" data-tab="ai">AI Tools & Resources (Coming Soon)</button>
+            </div>
+        </div>
+
+        <div class="tab-content-holder">
+            <!-- Templates & Graphics Tab -->
+            <div class="tab-content active" id="templates">
+                <div class="swiper shop-cat-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Templates & Graphics</h3>
+                                    <p>Professional templates and graphics for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Templates & Graphics</h3>
+                                    <p>Professional templates and graphics for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Templates & Graphics</h3>
+                                    <p>Professional templates and graphics for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Online Courses Tab -->
+            <div class="tab-content" id="courses">
+                <div class="swiper shop-cat-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Online Courses</h3>
+                                    <p>Affordable, accessible, and engaging courses for every learner.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Online Courses</h3>
+                                    <p>Affordable, accessible, and engaging courses for every learner.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Online Courses</h3>
+                                    <p>Affordable, accessible, and engaging courses for every learner.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Digital Tools Tab -->
+            <div class="tab-content" id="tools">
+                <div class="swiper shop-cat-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Digital Tools</h3>
+                                    <p>Powerful tools to enhance your digital workflow.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Digital Tools</h3>
+                                    <p>Powerful tools to enhance your digital workflow.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Digital Tools</h3>
+                                    <p>Powerful tools to enhance your digital workflow.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- Arabic & Gulf Heritage Tab -->
+            <div class="tab-content" id="heritage">
+                <div class="swiper shop-cat-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Arabic & Gulf Heritage</h3>
+                                    <p>Explore the rich cultural heritage of the Arab world.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Arabic & Gulf Heritage</h3>
+                                    <p>Explore the rich cultural heritage of the Arab world.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>Arabic & Gulf Heritage</h3>
+                                    <p>Explore the rich cultural heritage of the Arab world.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+
+            <!-- AI Tools & Resources Tab -->
+            <div class="tab-content" id="ai">
+                <div class="swiper shop-cat-swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slide 1 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 2 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 3 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slide 4 -->
+                        <div class="swiper-slide">
+                            <div class="shop-cat-card">
+                                <img src="assets/images/shop-cat1.png" alt="" />
+                                <div class="shop-cat-card-content">
+                                    <h3>AI Tools & Resources</h3>
+                                    <p>Cutting-edge AI tools and resources for your projects.</p>
+                                    <a href="#" class="site-btn">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add Navigation -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
             </div>
         </div>
     </section>
 
 
 
+    <section class="shop-by-brand-sec">
+
+        <div class="container">
+            <div class="sec-title">
+                <h2> Social Proof / As Seen On</h2>
+                <h3>10,000+ Downloads Delivered</h3>
+            </div>
+        </div>
+
+    </section>
 
 
 
 
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Initialize all swipers
+            const swipers = {};
+            document.querySelectorAll('.shop-cat-swiper').forEach((swiperEl, index) => {
+                swipers[index] = new Swiper(swiperEl, {
+                    // Optional parameters
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                    centeredSlides: true,
 
+                    // Navigation arrows
+                    navigation: {
+                        nextEl: swiperEl.querySelector('.swiper-button-next'),
+                        prevEl: swiperEl.querySelector('.swiper-button-prev'),
+                    },
+                    // Autoplay
+                    autoplay: {
+                        delay: 3000,
+                        disableOnInteraction: false,
+                    },
 
+                    // Pagination
+                    pagination: {
+                        el: swiperEl.querySelector('.swiper-pagination'),
+                        clickable: true,
+                    },
 
+                    // Responsive breakpoints
+                    breakpoints: {
+                        // when window width is >= 768px
+                        768: {
+                            slidesPerView: 2,
+                        },
+                        // when window width is >= 1024px
+                        1024: {
+                            slidesPerView: 1.8,
+                        }
+                    }
+                });
+            });
 
+            // Tab functionality
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
 
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
 
+                    // Add active class to clicked button
+                    button.classList.add('active');
 
+                    // Show corresponding content
+                    const tabId = button.getAttribute('data-tab');
+                    document.getElementById(tabId).classList.add('active');
 
-
-
-
-
-
-    <script src="assets/js/script.js"></script>
-
+                    // Update swiper for the active tab
+                    const activeSwiperIndex = Array.from(tabContents).indexOf(document.getElementById(tabId));
+                    if (swipers[activeSwiperIndex]) {
+                        swipers[activeSwiperIndex].update();
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
