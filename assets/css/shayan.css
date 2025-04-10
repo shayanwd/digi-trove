@@ -1,0 +1,149 @@
+.shop-by-cat-sec .sec-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.shop-cat-tab-holder {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    /* justify-content: center; */
+    width: fit-content;
+    margin: 0 auto;
+    gap: 50px;
+    scroll-snap-type: x mandatory;
+    margin-bottom: 30px;
+    overflow: auto;
+}
+
+.shop-cat-tab-holder button {
+    all: unset;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.825);
+    font-weight: 400;
+    scroll-snap-align: start;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    min-height: min-content;
+}
+
+.shop-cat-tab-holder button.active {
+    color: #873EFF;
+    border-bottom: 1px solid #873EFF;
+}
+
+/* Tab Content Styles */
+.tab-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tab-content.active {
+    display: block;
+    opacity: 1;
+}
+
+/* Swiper Styles */
+.shop-cat-swiper {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.shop-cat-swiper .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-cat-card {
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.shop-cat-card::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -70px;
+    width: 60%;
+    height: 100%;
+    background-image: url(../images/shop-cat-shade.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    border-radius: 20px;
+}
+
+.shop-cat-card img {
+    width: 100%;
+    border-radius: 20px;
+    aspect-ratio: 2/1;
+    object-fit: cover;
+}
+
+.shop-cat-card-content {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    color: white;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Swiper Navigation Buttons */
+.shop-cat-swiper .swiper-button-next,
+.shop-cat-swiper .swiper-button-prev {
+    color: #873EFF;
+}
+
+/* Swiper Pagination */
+.shop-cat-swiper .swiper-pagination-bullet {
+    background: #873EFF;
+}
+
+.shop-cat-swiper .swiper-pagination-bullet-active {
+    background: #873EFF;
+}
+
+.shop-cat-card-content h3 {
+    font-size: 35px;
+    color: white;
+    font-weight: 700;
+}
+
+.shop-cat-card-content p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    max-width: 350px;
+}
+
+.shop-cat-card-content a {
+    background-color: white !important;
+    color: #873EFF !important;
+}
+
+.shop-cat-swiper .swiper-slide {}
+
+.shop-cat-swiper .swiper-slide.swiper-slide-active {
+    /* transform: scale(1.04); */
+
+}
+
+.shop-cat-swiper .swiper-button-next {
+    display: none;
+}
+
+.shop-cat-swiper .swiper-button-prev {
+    display: none;
+}
