@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+
+
 .banner-sec {
     position: relative;
     z-index: 1;
@@ -252,4 +259,220 @@
     top: -20px;
     width: 25%;
     transform: translateX(-41%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.trusted-sec {
+    width: 100%;
+    padding: 100px 0px;
+    background: #873EFF;
+    color: #fff;
+}
+
+.trusted-title {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.trusted-main {
+    width: 100%;
+}
+
+.tst-cell {
+    width: 100%;
+}
+
+.ts-txt p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    text-transform: capitalize;
+    vertical-align: middle;
+    max-width: 440px;
+}
+
+.ts-txt svg {
+    display: inline;
+    vertical-align: middle;
+    padding: 4px 0 5px 0;
+}
+
+.tst-dets {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+
+.tst-dets img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.user-dets span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-transform: capitalize;
+}
+
+.user-dets p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+}
+
+.trusted-pagination {
+    position: relative;
+    margin-top: 30px;
+}
+
+.trusted-pagination .swiper-pagination-bullet {
+    background: #fff !important;
+    transition: all 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lm-offer-sec {
+    width: 100%;
+    padding: 80px 0px;
+    background: #873EFF;
+    color: #fff;
+    overflow: hidden;
+}
+
+.lm-offer-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 43.7%;
+    gap: 30px;
+    align-items: center;
+}
+
+.lm-offer-col1 {
+    position: relative;
+    z-index: 2;
+}
+
+.lm-offer-col1 h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.lm-offer-col1 p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    text-transform: capitalize;
+    max-width: 617px;
+    width: 90%;
+}
+
+.timer-grid {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 30px;
+}
+
+.timer-grid svg {
+    width: 8px;
+}
+
+.time-cell .time-val {
+    aspect-ratio: 1/1;
+    width: 70px;
+    height: 70px;
+    padding-top: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #25F4EE;
+    border-radius: 8px;
+    color: #000;
+    font-family: Bebas Neue;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.time-txt {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    display: block;
+}
+
+.offerSwiper .swiper-slide {
+    transition: all 0.2s;
+}
+
+.offerSwiper .off-cell {
+    display: block;
+    width: 100%;
+}
+
+.offerSwiper .off-cell img {
+    width: 100%;
+    display: block;
+    aspect-ratio: 594/446;
+    object-fit: contain;
+}
+
+.offerSwiper {
+    overflow: visible;
+}
+
+.offerSwiper .swiper-slide:has(~ .swiper-slide-active),
+.offerSwiper .swiper-slide-prev {
+    opacity: 0;
+}
+
+.offerSwiper .swiper-slide:not(.swiper-slide-active) {
+    transform: scale(0.8);
+    transform-origin: left;
 }
