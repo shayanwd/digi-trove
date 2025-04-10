@@ -113,3 +113,143 @@
     text-align: center;
     text-transform: capitalize;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.join-sec {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 80px 0px 100px;
+    overflow-x: clip;
+    background-image: url(../images/join-bg_converted.webp);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+
+.join-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 34% 1fr;
+    gap: 100px;
+}
+
+.jc-01 {
+    width: 100%;
+}
+
+.jc-01 h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.jc-01 p {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.jc-01 ul li {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 160%;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.jc-01 ul {
+    margin: 16px 0px 22px;
+}
+
+.jc-01 ul li::before {
+    content: "";
+    height: 17px;
+    width: 17px;
+    display: block;
+    background-image: url(../images/checkk.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: translate(0px, -1px);
+}
+
+.join-form {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+}
+
+.join-form input {
+    border: 1px solid #fff;
+    background: transparent;
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 160%;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.join-form input::placeholder {
+    color: #fff;
+}
+
+.join-form button {
+    display: block;
+    background: #873EFF;
+    padding: 24px 26px;
+    border-radius: 14px;
+    color: #fff;
+    font-family: Fustat;
+    font-weight: 800;
+    font-size: 18.93px;
+    line-height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+}
+
+.jc-02 {
+    width: 100%;
+}
+
+.ji-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.ji-wrap img:not([class]) {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+
+.ji-wrap img.ji-badge {
+    position: absolute;
+    top: -20px;
+    width: 25%;
+    transform: translateX(-41%);
+}
