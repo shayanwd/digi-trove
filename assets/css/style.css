@@ -2135,3 +2135,27 @@ span.acc-icon {
     max-width: 680px;
     text-transform: capitalize;
 }
+
+
+
+
+
+
+
+
+/* MASONRY */
+.course-box-holder.masonry {
+    display: block;
+    columns: 310px;
+    --space: 10px;
+    gap: var(--space) !important;
+}
+
+.masonry .crs-box {
+    height: auto !important;
+    margin-bottom: var(--space);
+}
+
+img.main-thumb {
+    display: block;
+}
